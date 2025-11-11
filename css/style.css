@@ -93,7 +93,15 @@ body {
     justify-content: center;
   }
 }
-
+@media (max-width: 400px) {
+  .topbar {
+    font-size: 13px;
+    padding: 8px 0;
+  }
+  .topbar-right span {
+    padding: 2px 8px;
+  }
+}
 
 /* Header */
 .header {

@@ -63,116 +63,127 @@
   </section>
 
   <!-- Categories -->
-  <section class="section" id="categories">
-    <div class="container">
-      <div class="section-head">
-        <h2>Explore Categories</h2>
-        <p>Choose a category to view reliable hardware options.</p>
-      </div>
-
-      <div class="grid grid-4">
-        <a href="#ups" class="card category-card">
-          <img src="img/product-1.png" alt="UPS" />
-          <div class="card-body">
-            <h3>UPS</h3>
-            <p>Line-interactive and online UPS from APC.</p>
-          </div>
-        </a>
-        <a href="#batteries" class="card category-card">
-          <img src="img/product-2.png" alt="VRLA Batteries" />
-          <div class="card-body">
-            <h3>Batteries (VRLA)</h3>
-            <p>Long, Loche, Dongjin sealed lead-acid.</p>
-          </div>
-        </a>
-        <a href="#desktops" class="card category-card">
-          <img src="img/desktop.jpeg" alt="Desktops" />
-          <div class="card-body">
-            <h3>Desktops</h3>
-            <p>Dell, HP, Lenovo business series.</p>
-          </div>
-        </a>
-        <a href="#laptops" class="card category-card">
-          <img src="img/product-11.png" alt="Laptops" />
-          <div class="card-body">
-            <h3>Laptops</h3>
-            <p>ThinkPad, Latitude, ProBook lineups.</p>
-          </div>
-        </a>
-      </div>
+<section class="section categories-section" id="categories">
+  <div class="container">
+    <div class="section-head">
+      <h2>Explore Categories</h2>
+      <p>Choose a category to view reliable hardware options.</p>
     </div>
-  </section>
+
+    <div class="category-grid">
+      <!-- UPS -->
+      <a href="#ups" class="category-card">
+        <div class="card-image">
+          <img src="img/product-1.png" alt="UPS" />
+        </div>
+        <div class="card-overlay">
+          <h3>UPS</h3>
+          <p>Line-interactive and online UPS from APC.</p>
+        </div>
+      </a>
+
+      <!-- Batteries -->
+      <a href="#batteries" class="category-card">
+        <div class="card-image">
+          <img src="img/product-2.png" alt="VRLA Batteries" />
+        </div>
+        <div class="card-overlay">
+          <h3>Batteries (VRLA)</h3>
+          <p>Long, Loche, Dongjin sealed lead-acid.</p>
+        </div>
+      </a>
+
+      <!-- Desktops -->
+      <a href="#desktops" class="category-card">
+        <div class="card-image">
+          <img src="img/desktop.jpeg" alt="Desktops" />
+        </div>
+        <div class="card-overlay">
+          <h3>Desktops</h3>
+          <p>Dell, HP, Lenovo business series.</p>
+        </div>
+      </a>
+
+      <!-- Laptops -->
+      <a href="#laptops" class="category-card">
+        <div class="card-image">
+          <img src="img/product-11.png" alt="Laptops" />
+        </div>
+        <div class="card-overlay">
+          <h3>Laptops</h3>
+          <p>ThinkPad, Latitude, ProBook lineups.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 
   <!-- UPS -->
   <section class="section" id="ups">
-    <div class="container">
-      <div class="section-head">
-        <h2>APC UPS lineup</h2>
-        <p>From entry-level to mission-critical online UPS.</p>
-      </div>
+  <div class="container">
+    <div class="section-head">
+      <h2>APC UPS lineup</h2>
+      <p>From entry-level to mission-critical online UPS.</p>
+    </div>
 
-      <div class="grid grid-3">
-        <!-- APC BV650I MSX -->
-        <div class="card product-card">
-          <div class="badge">New</div>
-          <img src="./img/apc.jpeg" alt="APC BV650I MSX" />
-          <div class="card-body">
-            <h3>APC BV650I MSX</h3>
-            <p class="muted">650 VA, line-interactive</p>
-            <div class="specs">
-              <span>6 outlets</span>
-              <span>AVR</span>
-              <span>LCD</span>
-            </div>
-            <div class="card-actions">
-              <a href="#" class="btn btn-primary">View details</a>
-              <a href="#contact" class="btn btn-ghost">Request quote</a>
-            </div>
+    <div class="product-grid">
+      <!-- APC BV650I MSX -->
+      <div class="card product-card">
+        <div class="badge">New</div>
+        <img src="./img/apc.jpeg" alt="APC BV650I MSX" />
+        <div class="card-body">
+          <h3>APC BV650I MSX</h3>
+          <p class="muted">650 VA, line-interactive</p>
+          <div class="specs">
+            <span>6 outlets</span>
+            <span>AVR</span>
+            <span>LCD</span>
           </div>
         </div>
-
-        <!-- APC BV1000I MSX -->
-        <div class="card product-card">
-          <img src="img/APC UPS lineup.avif" alt="APC BV1000I MSX" />
-          <div class="card-body">
-            <h3>APC BV1000I MSX</h3>
-            <p class="muted">1000 VA, line-interactive</p>
-            <div class="specs">
-              <span>AVR</span>
-              <span>USB</span>
-              <span>LCD</span>
-            </div>
-            <div class="card-actions">
-              <a href="#" class="btn btn-primary">View details</a>
-              <a href="#contact" class="btn btn-ghost">Request quote</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- APC SRV 1000 KI -->
-        <div class="card product-card">
-          <img src="img/APC SRV 1000 KI.webp" alt="APC SRV 1000 KI" />
-          <div class="card-body">
-            <h3>APC SRV 1000 KI</h3>
-            <p class="muted">1 kVA, online double-conversion</p>
-            <div class="specs">
-              <span>Pure sine</span>
-              <span>Hot-swappable</span>
-              <span>Rack/Tower</span>
-            </div>
-            <div class="card-actions">
-              <a href="#" class="btn btn-primary">View details</a>
-              <a href="#contact" class="btn btn-ghost">Request quote</a>
-            </div>
-          </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-primary">View details</a>
+          <a href="#contact" class="btn btn-ghost">Request quote</a>
         </div>
       </div>
 
-      <div class="grid grid-3">
+      <!-- APC BV1000I MSX -->
+      <div class="card product-card">
+        <img src="img/APC UPS lineup.avif" alt="APC BV1000I MSX" />
+        <div class="card-body">
+          <h3>APC BV1000I MSX</h3>
+          <p class="muted">1000 VA, line-interactive</p>
+          <div class="specs">
+            <span>AVR</span>
+            <span>USB</span>
+            <span>LCD</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-primary">View details</a>
+          <a href="#contact" class="btn btn-ghost">Request quote</a>
+        </div>
+      </div>
 
+      <!-- APC SRV 1000 KI -->
+      <div class="card product-card">
+        <img src="img/APC SRV 1000 KI.webp" alt="APC SRV 1000 KI" />
+        <div class="card-body">
+          <h3>APC SRV 1000 KI</h3>
+          <p class="muted">1 kVA, online double-conversion</p>
+          <div class="specs">
+            <span>Pure sine</span>
+            <span>Hot-swappable</span>
+            <span>Rack/Tower</span>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a href="#" class="btn btn-primary">View details</a>
+          <a href="#contact" class="btn btn-ghost">Request quote</a>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Batteries -->
   <section class="section" id="batteries">
@@ -423,67 +434,81 @@
   </section>
 
   <!-- Contact -->
-  <section class="section" id="contact">
-    <div class="container">
-      <div class="section-head">
-        <h2>Contact MIG POWER</h2>
-        <p>Tell us your requirements — we’ll recommend the right gear.</p>
-      </div>
-      <div class="contact-grid">
-        <form class="contact-form">
-          <div class="form-row">
-            <label>Name</label>
-            <input type="text" placeholder="Your name" />
-          </div>
-          <div class="form-row">
-            <label>Email</label>
-            <input type="email" placeholder="your@email.com" />
-          </div>
-          <div class="form-row">
-            <label>Requirements</label>
-            <textarea rows="5" placeholder="UPS capacity, battery Ah, rack size, desktop/laptop specs..."></textarea>
-          </div>
-          <button class="btn btn-primary">Send inquiry</button>
-        </form>
+ <section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <h2>Contact <span>MIG POWER</span></h2>
+      <p>Tell us your requirements — we’ll recommend the right gear.</p>
+    </div>
 
-        <div class="contact-info">
-          <div class="info-block">
-            <strong>Sales</strong>
-            <p class="muted">Quotes, stock & delivery</p>
-          </div>
-          <div class="info-block">
-            <strong>Support</strong>
-            <p class="muted">Warranty & installation</p>
-          </div>
-          <div class="info-block">
-            <strong>Location</strong>
-            <p class="muted">Karachi, Pakistan</p>
-          </div>
-          <div class="info-block">
-            <strong>Brands</strong>
-            <p class="muted">APC, Dell, HP, Lenovo, Long, Loche, Dongjin</p>
-          </div>
+    <div class="contact-grid">
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <div class="form-row fade-in">
+          <label>Name</label>
+          <input type="text" placeholder="Your name" required />
+        </div>
+        <div class="form-row fade-in" style="animation-delay: 0.2s">
+          <label>Email</label>
+          <input type="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-row fade-in" style="animation-delay: 0.4s">
+          <label>Requirements</label>
+          <textarea
+            rows="5"
+            placeholder="UPS capacity, battery Ah, rack size, desktop/laptop specs..."
+            required
+          ></textarea>
+        </div>
+        <button class="btn btn-primary fade-in" style="animation-delay: 0.6s">
+          Send Inquiry
+        </button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info fade-in" style="animation-delay: 0.8s">
+        <div class="info-block">
+          <strong>Sales</strong>
+          <p class="muted">Quotes, stock & delivery</p>
+        </div>
+        <div class="info-block">
+          <strong>Support</strong>
+          <p class="muted">Warranty & installation</p>
+        </div>
+        <div class="info-block">
+          <strong>Location</strong>
+          <p class="muted">Karachi, Pakistan</p>
+        </div>
+        <div class="info-block">
+          <strong>Brands</strong>
+          <p class="muted">APC, Dell, HP, Lenovo, Long, Loche, Dongjin</p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-left">
-        <strong>MIG POWER</strong>
-        <p class="muted">Energy & IT Hardware Solutions</p>
-      </div>
-      <div class="footer-right">
-        <a href="#ups">UPS</a>
-        <a href="#batteries">Batteries</a>
-        <a href="#desktops">Desktops</a>
-        <a href="#laptops">Laptops</a>
-        <a href="#apc-accessories">APC Accessories</a>
-      </div>
+ <footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <strong class="footer-logo">MIG POWER</strong>
+      <p class="muted">Energy & IT Hardware Solutions</p>
     </div>
-  </footer>
+
+    <div class="footer-right">
+      <a href="#ups">UPS</a>
+      <a href="#batteries">Batteries</a>
+      <a href="#desktops">Desktops</a>
+      <a href="#laptops">Laptops</a>
+      <a href="#apc-accessories">APC Accessories</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 MIG POWER. All rights reserved.</p>
+  </div>
+</footer>
 
   <script>
     // Mobile menu toggle
